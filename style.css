@@ -123,10 +123,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 1.5em;
   line-height: 2.4em;
   margin-top: 0.5em;
-  color: #a0a8b0;
 }
 
 .selected h2 {
