@@ -304,6 +304,12 @@ h3 a:hover {
   margin-bottom: 0.5em;
 }
 
+.publication::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .publication p {
   font-size: 1em;
   line-height: 1.5em;
