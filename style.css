@@ -206,6 +206,11 @@ h2 {
   margin-top: 1em;
 }
 
+.list-item.news {
+  line-height: 1.4em;
+  margin-top: 0.6em;
+}
+
 .list-item p.date {
   display: inline-block;
   width: 3em;
@@ -324,9 +329,34 @@ h3 a:hover {
 /**************************************************/
 /* Subtle footer at the bottom of the page. */
 
-#footer {
+#site-footer {
+  clear: both;
   color: #a0a8b0;
-  position: absolute;
-  bottom: 0;
   line-height: 2.5em;
+  padding: 3em 0 2em;
+}
+
+.more-link {
+  margin-top: 1.5em;
+}
+
+#pubs-page {
+  padding-top: 2em;
+}
+
+.pinned {
+  display: inline-block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  padding: 0 0.5em;
+  margin-right: 0.3em;
+  border-radius: 0.3em;
+  background: #d93025;
+  color: #ffffff;
+  font-weight: 600;
+  vertical-align: 0.1em;
+}
+
+.pinned-item {
+  font-weight: 600;
 }
