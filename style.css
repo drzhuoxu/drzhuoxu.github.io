@@ -85,10 +85,31 @@ h1 {
 }
 
 /**************************************************/
+/* Top navigation tabs. */
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2em;
+  padding-top: 2.5em;
+  font-size: 1.1em;
+}
+
+#nav a {
+  color: #a0a8b0;
+}
+
+#nav a:hover,
+#nav a.is-current {
+  color: #150c21;
+  border-bottom: none;
+}
+
+/**************************************************/
 /* Profile image and description. */
 
 #intro {
-  padding-top: 6em;
+  padding-top: 3em;
   display: flex;
 }
 
